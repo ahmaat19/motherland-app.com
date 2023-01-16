@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "Motherland",
+    "slug": "motherland",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#272560"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.motherland.app.com",
+      "buildNumber": "1"
+    },
+    "android": {
+      "package": "com.motherland.app.com",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#272560"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "65910a2f-9ee6-453a-a6d5-aa6117932ea8" // Change letter
+      }
+    }
+  }
+}
