@@ -1,33 +1,23 @@
 {
   "cli": {
-    "version": ">= 2.5.1"
+    "version": ">= 3.3.2"
   },
   "build": {
     "development": {
       "developmentClient": true,
-      "distribution": "internal",
-      "ios": {
-        "image": "latest"
-      }
+      "distribution": "internal"
     },
     "preview": {
       "distribution": "internal"
     },
-    "production": {
-      "ios": {
-        "image": "latest"
-      }
-    }
+    "production": {}
   },
   "submit": {
     "production": {
       "ios": {
         "appleId": "soomarsystems@gmail.com",
-        "ascAppId": "6444431746",
-        "appleTeamId": "2QZGWPU4VK"
-      },
-      "android": {
-        "serviceAccountKeyPath": "../../../screenshots/pc-api-5497005760747310696-294-1ef1332e6c98.json"
+        "ascAppId": "1665873731",
+        "appleTeamId": "H6RYDR5S9Z"
       }
     }
   }
